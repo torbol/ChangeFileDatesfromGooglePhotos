@@ -1,4 +1,6 @@
 # ChangeFileDatesfromGoogleCloud
+AVISO: Estos scripts solo funcionan en Windows.
+
 Lo que se pretende con este proyecto es, una vez descargados los videos y fotos de Google Fotos (fotos en cualquier formato y videos MP4), cambiar la fecha de creación de cada archivo por la de captura o creación del medio, para que al subirlos a otro servicio de nube las fotos y videos queden ordenados por fecha correcta
 
 1. Una vez descomprimido el .zip de la copia de Google Fotos (en el repostorio he dejado "takeout-XXXXXXXXXXX.zip" listo como archivo de pruebas) buscamos y eliminamos todos los archivos "json" en el buscador de windows
