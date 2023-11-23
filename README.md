@@ -1,7 +1,7 @@
 # ChangeFileDatesfromGoogleCloud
 Lo que se pretende con este proyecto es, una vez descargados los videos y fotos de Google Fotos (fotos en cualquier formato y videos MP4), cambiar la fecha de creación de cada archivo por la de captura o creación del medio, para que al subirlos a otro servicio de nube las fotos y videos queden ordenados por fecha correcta
 
-1. Una vez descomprimido el .zip de la copia de Google Fotos (en el repostorio he dejado "takeout-XXXXXXXXXXX.zip" listo como archivo de pruebas, buscamos todos los archivos "json" en el buscador de windows
+1. Una vez descomprimido el .zip de la copia de Google Fotos (en el repostorio he dejado "takeout-XXXXXXXXXXX.zip" listo como archivo de pruebas) buscamos todos los archivos "json" en el buscador de windows
 ![image](https://github.com/torbol/ChangeFileDatesfromGoogleCloud/assets/99366541/9e43541f-fa01-4ff5-a42f-1f84da667602)
 
 2. Ejecutamos el script "eliminadorcarpetasvacias.py" con doble click (debe estar en la carpeta donde están todas las subcarpetas con las fotos, como en las carpetas de ejemplo) y se eliminarán las carpetas vacías, en la carpeta de ejemplo, "Carpeta 1" y "Carpeta 2"
