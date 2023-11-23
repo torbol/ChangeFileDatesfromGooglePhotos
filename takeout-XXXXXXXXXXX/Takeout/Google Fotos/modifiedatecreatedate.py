@@ -56,5 +56,5 @@ def fecharchivos(accion): #Pasaremos un parámetro, o leer o cambiar
                     setctime(rutarelativadelarchivo, TimeStampTransformado)
 
 # Ahora vamos a proceder a leer las fechas de captura, modificación y creación de cada archivo:
-fecharchivos("leer")
-#fecharchivos("cambiar") #Descomentar esta linea SI QUEREMOS CAMBIAR LAS FECHAS POR LAS DE CREACIÓN!!!!
+#fecharchivos("leer") #Descomentar si queremos ver las fechas de todos los archivos de las subcarpetas
+fecharchivos("cambiar") #Descomentar esta linea SI QUEREMOS CAMBIAR LAS FECHAS POR LAS DE CREACIÓN!!!!
