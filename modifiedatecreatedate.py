@@ -52,7 +52,7 @@ def fecharchivos(accion): #Pasaremos un parámetro, o leer o cambiar
                     print("{}:\tcapturedate:{}\tcreatedate:{}\tmodifdate:{}".format(archivo, str(dt), str(fc), str(fm)))
                 if accion == "cambiar":
                     TimeStampTransformado = dtfcfm(properties, pscon.PKEY_ItemDate, accion)
-                    os.utime(rutarelativadelarchivo, (TimeStampTransformado+1200, TimeStampTransformado+1200)) #(rutadelarchivo, (fechacceso, fechamodificion))
+                    os.utime(rutarelativadelarchivo, (TimeStampTransformado, TimeStampTransformado)) #(rutadelarchivo, (fechacceso, fechamodificion))
                     setctime(rutarelativadelarchivo, TimeStampTransformado)
 
 # Ahora vamos a proceder a leer las fechas de captura, modificación y creación de cada archivo:
